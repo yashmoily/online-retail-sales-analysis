@@ -35,7 +35,8 @@ The objective is to transform raw transactional data into a structured dataset t
 | `01_Data_Quality_Assessment.sql` | Examines data quality, missing values, and duplicates. |
 | `02_Sales_Data_Preparation.sql` | Prepares data and reconciles sales figures. |
 | `03_Business_Analysis.sql` | Analyses sales, customers, products, countries, and time periods. |
-| `Online_Retail_Business_Findings.docx` | Documents findings, recommendations, and limitations. |
+| `Online_Retail_Business_Findings.docx` | Editable Word report documenting findings and recommendations. |
+| `Online_Retail_Business_Findings.pdf` | PDF version of the business findings report for convenient viewing. |
 
 
 

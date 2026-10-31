@@ -93,4 +93,4 @@ This repository contains the SQL scripts and business findings report. The raw d
 
 Created as part of my Data Science & AI portfolio, demonstrating practical skills in Microsoft SQL Server, T-SQL, data preparation, and business analysis.
 
-**Yash Moily** | [LinkedIn](www.linkedin.com/in/yash-moily-251987395) | yash.moily3@gmail.com
+**Yash Moily** | [LinkedIn](https://www.linkedin.com/in/yash-moily-251987395) | yash.moily3@gmail.com

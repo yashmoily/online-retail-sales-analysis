@@ -78,16 +78,31 @@ The raw dataset is not included in this repository. Download it from the link ab
 | Cancellation lines | 8,668 | −£475,901.16 |
 | **Net sales** | **531,205** | **£9,771,318.16** |
 
+## Customer Segmentation Data Reconciliation
+
+The related RFM customer segmentation project uses 4,334 customers with at least one qualifying positive merchandise transaction.
+
+During validation, 28 customers present in the Net Sales dataset but absent from the Product Sales dataset were excluded from the RFM population. These customers collectively contributed −£3,922.98 in net monetary value because they had no qualifying positive merchandise transactions.
+
+The final RFM Monetary Value was £8,269,399.91. SQL Server and Python aggregate monetary values reconciled exactly, with a difference of £0.00.
+
+For the detailed methodology, validation results, and customer segmentation analysis, see the [Online Retail Customer Segmentation repository](https://github.com/yashmoily/online-retail-customer-segmentation).
+
+*Cancellation adjustments are calculated at the transaction-line level, not through confirmed order-level matching.*
+
 ## Repository Contents
 
 This repository contains the SQL scripts and business findings report. The raw dataset is not included; obtain it from the UCI Machine Learning Repository (see the Dataset section) and follow its terms of use.
 
 ## Future Improvements
 
-- Extend the analysis using additional years of transaction data.
-- Further investigate cancellations and matched reversals.
-- Connect the prepared data to an interactive Power BI dashboard.
-- Align customer-level analysis with a dedicated Python RFM and segmentation project.
+- Extend the sales analysis with additional business-focused insights and reporting.
+- Explore further opportunities for customer behaviour analysis and business performance monitoring.
+
+## Related Projects
+
+- [Online Retail Customer Segmentation](https://github.com/yashmoily/online-retail-customer-segmentation) — RFM analysis, K-Means clustering and customer segmentation using Python and SQL Server.
+- Power BI dashboard — Interactive two-page dashboard developed as part of the customer segmentation project. See the [Customer Segmentation repository](https://github.com/yashmoily/online-retail-customer-segmentation).
 
 ## Author
 
